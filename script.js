@@ -12,7 +12,7 @@ function generateAndAppendSlotItems(
 ) {
   slotsContainer.innerHTML = "";
   
-  const slotItems = []; // Create a separate slotItems array for each container
+  const slotItems = [];
 
   for (let i = 0; i < numSlots; i++) {
     const slotItem = document.createElement("div");
@@ -53,7 +53,7 @@ spinButton.addEventListener("click", () => {
       spinning = true;
       slotsContainers.forEach((slotsContainer, slotsContCounter) => {
         let num1, num2, num3;
-        const slotItems = Array.from(slotsContainer.querySelectorAll('.slot-item')); // Get slot items for the current container
+        const slotItems = Array.from(slotsContainer.querySelectorAll('.slot-item'));
         
         // Generate a random delay between 0 and 0.2 seconds
         const randomDelay = Math.random() * 200;
