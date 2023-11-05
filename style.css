@@ -4,7 +4,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #4c4c4c; /* Light gray background */
+  background-color: #4c4c4c;
 }
 
 .container {
@@ -18,15 +18,15 @@ body {
 }
 
 .slot-machine {
-  background-color: #333; /* Dark background color */
+  background-color: #333;
   display: flex;
-  flex-direction: row; /* Display slots-containers horizontally */
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between; /* Distribute slots-containers evenly */
-  border: 11px solid #252525; /* Yellow border */
-  border-radius: 15px; /* Rounded corners */
+  justify-content: space-between;
+  border: 11px solid #252525;
+  border-radius: 15px;
   height: 210px;
-  width: 70%; /* Make the slot machine 50% wide */
+  width: 70%;
 }
 
 .slots-container {
@@ -34,7 +34,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 20%; /* Make each slots-container 10% wide */
+  width: 20%;
   height: 100%;
   overflow: hidden;
 }
@@ -45,11 +45,11 @@ body {
   text-align: center;
   line-height: 70px;
   font-size: 24px;
-  transition: transform 3s ease; /* Transition for smooth animation */
-  background-color: #ffcc00; /* Blue background color */
+  transition: transform 3s ease;
+  background-color: #ffcc00;
   color: #252525;
-  border-left: 1px solid #252525; /* Yellow border */
-  border-right: 1px solid #252525; /* Yellow border */
+  border-left: 1px solid #252525;
+  border-right: 1px solid #252525;
 }
 
 
